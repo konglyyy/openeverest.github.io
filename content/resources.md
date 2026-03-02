@@ -60,6 +60,16 @@ events:
     image: "/images/resources/percona-university-bangkok-2026.png"
     video: false
 
+  - title: "OpenEverest at PGConf India 2026"
+    url: "https://pgconf.in/"
+    event_name: "PGConf India 2026"
+    location: "Bengaluru, India"
+    date: 2026-03-11
+    speaker: "Lalit Choudhary"
+    speaker_slug: "lalitvc"
+    type: "conference"
+    description: "Connect with Lalit Choudhary to learn more about the OpenEverest platform"
+
   - title: "The Layers of DB Autonomy: How OpenEverest Abstracts Complexity for Self-Healing Data"
     url: "https://www.youtube.com/watch?v=FoV8ofXFAB4"
     event_name: "BuildDevCon, DB Mastery Series, AI DBA: Self-driving databases"
