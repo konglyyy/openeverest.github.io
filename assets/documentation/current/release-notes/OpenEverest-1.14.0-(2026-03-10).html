@@ -27,7 +27,7 @@
       
       
       <link rel="icon" href="../assets/everest-fav.svg">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.4">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
     
     
       
@@ -565,17 +565,6 @@
   
     <nav class="md-nav" aria-label="Release highlights">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#openeverest-now-runs-on-arm" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OpenEverest now runs on ARM
-      
-    </span>
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#install-everestctl-via-homebrew" class="md-nav__link">
@@ -4883,17 +4872,6 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.2);
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#openeverest-now-runs-on-arm" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OpenEverest now runs on ARM
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#install-everestctl-via-homebrew" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -5008,26 +4986,21 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 <tbody>
 <tr>
 <td><strong>1.</strong></td>
-<td><a href="#arm-support">ARM support</a></td>
-<td>OpenEverest now supports ARM (arm64) architecture, enabling deployment on ARM-based servers and Apple Silicon Macs.</td>
-</tr>
-<tr>
-<td><strong>2.</strong></td>
 <td><a href="#homebrew-installation-for-everestctl">Homebrew installation for everestctl</a></td>
 <td>Install <code>everestctl</code> on macOS and Linux with a single Homebrew command.</td>
 </tr>
 <tr>
-<td><strong>3.</strong></td>
+<td><strong>2.</strong></td>
 <td><a href="#community-helm-chart-migration">Community Helm chart migration</a></td>
 <td>OpenEverest is now installed via the community-driven Helm chart hosted at <code>openeverest/helm-charts</code>.</td>
 </tr>
 <tr>
-<td><strong>4.</strong></td>
+<td><strong>3.</strong></td>
 <td><a href="#operator-updates">Operator upgrades</a></td>
 <td>Support for Percona Operator for MongoDB v1.22.0.</td>
 </tr>
 <tr>
-<td><strong>5.</strong></td>
+<td><strong>4.</strong></td>
 <td><a href="#new-features">New features</a></td>
 <td>Check out the new features introduced in OpenEverest 1.14.0</td>
 </tr>
@@ -5035,19 +5008,8 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 </table>
 </details>
 <h2 id="release-highlights">Release highlights<a class="headerlink" href="#release-highlights" title="Permanent link">&para;</a></h2>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">💪 ARM support</label><label for="__tabbed_1_2">🍺 Homebrew for everestctl</label><label for="__tabbed_1_3">⛵ Community Helm chart</label><label for="__tabbed_1_4">⚙️ Operators</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">🍺 Homebrew for everestctl</label><label for="__tabbed_1_2">⛵ Community Helm chart</label><label for="__tabbed_1_3">⚙️ Operators</label></div>
 <div class="tabbed-content">
-<div class="tabbed-block">
-<h3 id="openeverest-now-runs-on-arm">OpenEverest now runs on ARM<a class="headerlink" href="#openeverest-now-runs-on-arm" title="Permanent link">&para;</a></h3>
-<p>OpenEverest 1.14.0 adds full support for ARM (arm64) architecture. All OpenEverest Docker images are now published as multi-architecture manifests, supporting both <code>amd64</code> and <code>arm64</code>. This enables you to run OpenEverest on ARM-based servers (such as Ampere or AWS Graviton instances) as well as Apple Silicon Macs.</p>
-<p><strong>What this means for you:</strong></p>
-<ul>
-<li>Install and run OpenEverest on ARM servers without workarounds</li>
-<li>Use <code>everestctl</code> and all OpenEverest components natively on ARM hardware</li>
-<li><code>everestctl</code> Homebrew tap works on both Apple Silicon and Intel CPUs</li>
-</ul>
-<p>📘 Related GitHub issue: <a href="https://github.com/openeverest/openeverest/issues/784">#784</a></p>
-</div>
 <div class="tabbed-block">
 <h3 id="install-everestctl-via-homebrew">Install everestctl via Homebrew<a class="headerlink" href="#install-everestctl-via-homebrew" title="Permanent link">&para;</a></h3>
 <p><code>everestctl</code> is now available through Homebrew, making installation on macOS and Linux as simple as two commands. This works on both Apple Silicon (arm64) and Intel (amd64) hardware.</p>
@@ -5080,9 +5042,6 @@ brew<span class="w"> </span>install<span class="w"> </span>everestctl
 </div>
 <h2 id="new-features">New features<a class="headerlink" href="#new-features" title="Permanent link">&para;</a></h2>
 <ul>
-<li>
-<p><a href="https://github.com/openeverest/openeverest/issues/784">#784</a>: OpenEverest Docker images are now published as multi-architecture manifests, adding native support for ARM (arm64) alongside AMD64.</p>
-</li>
 <li>
 <p><a href="https://github.com/openeverest/openeverest/issues/1728">#1728</a>: <code>everestctl</code> is now available via Homebrew (<code>brew tap openeverest/tap &amp;&amp; brew install everestctl</code>), supporting both macOS and Linux on ARM and AMD64.</p>
 </li>
