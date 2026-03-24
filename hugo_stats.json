@@ -68,9 +68,6 @@
       "video"
     ],
     "classes": [
-      "-mt-1",
-      "-mt-4",
-      "-mt-6",
       "absolute",
       "adopter-indicator",
       "animate-spin",
@@ -292,7 +289,6 @@
       "monitoring-table",
       "mr-2",
       "mr-3",
-      "mt-0",
       "mt-0.5",
       "mt-1",
       "mt-12",
@@ -325,7 +321,6 @@
       "pl-4",
       "prose",
       "prose-lg",
-      "pt-2",
       "pt-4",
       "pt-8",
       "px-2",

@@ -9,7 +9,7 @@
     <!-- Google tag (gtag.js) -->
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-0QWKGQSNZZ"
+      src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalyticsID }}"
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -17,7 +17,7 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-      gtag("config", "G-0QWKGQSNZZ");
+      gtag("config", "{{ .Site.Params.googleAnalyticsID }}");
     </script>
 
     <script src="https://unpkg.com/@stoplight/elements/web-components.min.js"></script>
