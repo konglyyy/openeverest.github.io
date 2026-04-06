@@ -1,6 +1,6 @@
 ---
 title: "OpenEverest Is Now a CNCF Sandbox Project"
-date: 2026-03-27T12:00:00
+date: 2026-04-06T12:00:00
 draft: false
 image:
     url: openeverest-cncf-sandbox.png
