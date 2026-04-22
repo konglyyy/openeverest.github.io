@@ -13,7 +13,7 @@ tags:
   - spotlight
   - kubernetes
   - databases
-summary: "Meet Rishi Mondal — Docker Captain, CNCF maintainer, two-time GSoC alum turned mentor, and an SRE who joined OpenEverest because the database problem on Kubernetes is one he lives every day."
+summary: "Meet Rishi Mondal — Docker Captain, CNCF maintainer, two-time GSoC alum turned mentor, and an SRE at Obmondo who joined OpenEverest community because the database problem on Kubernetes is one he lives every day."
 ---
 
 Some contributors show up with a question. Rishi Mondal showed up with merged pull requests worth of context.
